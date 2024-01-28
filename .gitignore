@@ -1,2 +1,5 @@
 /greet/proto/*.go
 /greet/bin
+
+/calculator/proto/*.go
+/calculator/bin
