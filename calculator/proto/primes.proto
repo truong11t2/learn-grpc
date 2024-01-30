@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package calculator;
+
+option go_package = "github.com/truong11t2/learn-go/calculator/proto";
+
+message PrimeRequest {
+    int32 num = 1;
+}
+
+message PrimeResponse {
+    int32 prime = 1;
+}
